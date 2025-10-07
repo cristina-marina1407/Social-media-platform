@@ -5,13 +5,13 @@ bianca.farcasanu
 
 ## Descriere:
 
-	Aceasta tema are ca scop implementarea prin trei task uri a unei platforme
+Aceasta tema are ca scop implementarea prin trei task uri a unei platforme
 ce se aseamana cu retelele de socializare. Astfel, se vor crea o retea de
 prieteni, postari si prin combinarea celor doua un feed de social media.
 In realizarea acestor task uri am folosit, in primul rand, functii care
 lucreaza cu liste, coada si grafuri.
 
-	Functiile pentru liste se afla in fisierul doubly_linked_list.c si
+Functiile pentru liste se afla in fisierul doubly_linked_list.c si
 realizeaza urmatoarele operatii:
 
 - functia `dll_create` are rolul de a crea o lista dublu inlantuita
@@ -48,9 +48,9 @@ in caz contrar
 - functia `lg_free` elibereaza memoria folosita de lista de adiacenta a
 grafului
 
-		TASK 1 (Retea de prietenie)
+#TASK 1 (Retea de prietenie)
 
-	Functiile implementate pentru acest task sunt urmatoarele:
+Functiile implementate pentru acest task sunt urmatoarele:
 
 *add_friends*
 Functia incepe prin obtinerea user_id urilor utilizatorilor folosind functia
@@ -109,9 +109,9 @@ parcurge lista de prieteni a utilizatorului si se determina maximul dintre
 numarul de prieteni ai prietenilor lui. De asemenea, se pastreaza id ul
 maximului pentru afisare.
 
-		TASK 2 (Postari si repostari)
+#TASK 2 (Postari si repostari)
 
-	Structurile folosite in acest task sunt:
+Structurile folosite in acest task sunt:
 
 - structura `data_in_node` care contine datele care se gasesc intr un nod.
 Campurile acestei structuri sunt id ul postarii, titlul acesteia, id ul
@@ -129,7 +129,7 @@ arbori. Campurile acestei structuri sunt vectorul de arbori, posts, dimensiunea
 acestuia, id ul la crescator la care au ajuns postarile si memoria alocata
 vectorului de postari.
 
-	In rezolvarea acestui task, pe langa functiile ce rezolva cerintele
+In rezolvarea acestui task, pe langa functiile ce rezolva cerintele
 precizate in enunt, am folosit urmatoarele functii auxiliare:
 
 - functia `t_node_create` are rolul de a crea un nod din arbore
@@ -229,9 +229,9 @@ copiii postarii si apoi parintele ei, folosind functiile corespunzatoare. Se
 sterge nodul din vectorul de copii al parintelui si se muta elementele cu o
 pozitie la stanga.
 
-		TASK 3 (Social Media)
+#TASK 3 (Social Media)
 
-	Functiile implementate pentru acest task sunt urmatoarele:
+Functiile implementate pentru acest task sunt urmatoarele:
 
 *friendship_verification*
 Functia are rolul de a verifica daca doi utilizatori sunt prieteni, determinand
